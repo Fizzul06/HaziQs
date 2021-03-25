@@ -1,0 +1,78 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Testing_code
+{
+    class Program
+    {
+      
+
+        static void Main(string[] args)
+        {
+            string hololiveEN = "Gawr Gura";
+            string hololiveEN2 = "Amelia Watson";
+            Console.WriteLine("Hello World");
+            Console.WriteLine("   /|");
+            Console.WriteLine("  / |");
+            Console.WriteLine(" /  |");
+            Console.WriteLine("/___|");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(hololiveEN2 + " :");
+            Console.WriteLine("We Live In Socity");
+            Console.WriteLine(hololiveEN + " :");
+            Console.WriteLine("Return To MONKE");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine("Data Type Learning");
+            Console.WriteLine(" ");
+            char gura_word = 'A';
+            Console.WriteLine("gura supreme word is " + gura_word);
+            int gura_hight = 141;
+            double half_number = 2.4321;
+            Console.WriteLine("example of half of number : " + half_number);
+            bool isshark = true;
+            Console.WriteLine(isshark);
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine("Working with The String");
+            Console.WriteLine(" ");
+            Console.WriteLine("Gawr\nGura");
+            Console.WriteLine("amelia\"watson");
+            string a_sentence = "DIO" + "is Shrimp";
+            Console.WriteLine(a_sentence);
+            Console.WriteLine(hololiveEN2.Length);
+            Console.WriteLine(hololiveEN[2]);
+            Console.WriteLine(hololiveEN2.IndexOf('W'));
+            Console.WriteLine("Gura Hight is " + gura_hight + "cm");
+            Console.WriteLine(hololiveEN.Substring(2, 6));
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine("Working With Number ");
+            Console.WriteLine(" ");
+            Console.WriteLine(5 + 3);
+            Console.WriteLine(4 % 9);
+            Console.WriteLine(2 / 3);
+            int nombor = 5;
+            nombor++;
+            Console.WriteLine(nombor);
+            nombor--;
+            nombor--;
+            Console.WriteLine(nombor);
+            Console.WriteLine(Math.Abs(-1242));
+            Console.WriteLine(Math.Pow(5, 10));
+            Console.Write("Masukkan Nama Anda: ");
+            string Nama = Console.ReadLine();
+            Console.WriteLine("Hi " + Nama);
+
+
+                
+
+
+            Console.ReadLine();
+        }
+    }
+}
