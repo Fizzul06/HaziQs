@@ -1,0 +1,69 @@
+using System;
+
+namespace If_Statement_Learning
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.Write("Are You My Friend?\nAnswer With True or False: ");
+            bool answer = Convert.ToBoolean(Console.ReadLine());
+            Console.Write("Are You Good?\nAnswer With True or False: ");
+            bool result = Convert.ToBoolean(Console.ReadLine());
+            bool isfreind = answer;
+            bool isgood = result;
+            if (isfreind && isgood)
+            {
+                Console.WriteLine("You Are My Friend and Good!");
+            }
+            else if (isfreind && !isgood)
+            {
+                Console.WriteLine("You Are My Friend but you are BAD!");
+
+            }
+            else if (!isfreind && isgood)
+            {
+
+                Console.WriteLine("So You are not my Friend?\nwanna be my friend?");
+
+            }
+            else
+            {
+                Console.WriteLine("Then Go Away you piece of SHIT!");
+            }
+
+            Console.Write("Bagi Nombor pertama : ");
+            int nom1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Bagi Nombor kedua : ");
+            int nom2 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Bagi Nombor ketiga : ");
+            int nom3 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(GetMin(nom1, nom2, nom3));
+
+
+            Console.ReadLine();
+        }
+
+        static int GetMin(int nom1, int nom2, int nom3)
+        {
+            int result;
+
+            if (nom1 <= nom2 && nom1 <= nom3)
+            {
+                result = nom1;
+            }else if (nom2 <= nom1 && nom2 <= nom3)
+            {
+                result = nom2;
+            }else
+            {
+                result = nom3;
+            }
+
+            return result;
+            
+
+        }
+    }
+}
